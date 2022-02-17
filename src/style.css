@@ -13,16 +13,21 @@
 body{
     min-height: 100vh;
     font-family: 'FontDigital';
-    background-color: #212121;
+    background-color: #1E1E1E;
 }
 
 main{
     height: 100vh;
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
 }
 main h1{
-    color: #ededed;
-    font-size: 6rem;
+    color: #FFC813;
+    font-size:  6rem;
+}
+main p{
+    color: #4FB8FE;
+    font-family: sans-serif;
 }
