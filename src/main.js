@@ -4,7 +4,7 @@ var meses = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho'
 
 var horarioAtual = function(){
     var date = new Date(); 
-    hora = date.getHours().toString().length < 2 ? "0" + date.getHours() : date.getHours;
+    hora = date.getHours().toString().length < 2 ? "0" + date.getHours() : date.getHours();
     min  = date.getMinutes().toString().length < 2 ? "0" + date.getMinutes() : date.getMinutes();
     sec  = date.getSeconds().toString().length < 2 ? "0" + date.getSeconds() : date.getSeconds();
 
